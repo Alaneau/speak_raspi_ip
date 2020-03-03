@@ -65,7 +65,7 @@ if __name__ == '__main__':
     count = 0
     while True:
         ip = getLocalIP()
-        print ip
+        print （ip）
         if ip == False:
             play("正在获取网络地址")
         else:
